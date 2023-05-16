@@ -8,7 +8,7 @@
 bool checkEqualityDaxpy(const vector<double>& v1, const vector<double>& v2) {
   if (v1.size() != v2.size()) {
     cerr << "Vectors are of unequal size." << endl;
-  //  return false;
+    return false;
   }
 
   for (int i = 0; i < v1.size(); i++) {

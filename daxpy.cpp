@@ -3,7 +3,7 @@
 #include <omp.h>
 #include <cstdint>
 
-using namespace std;
+//using namespace std;
 
 bool checkEqualityDaxpy(const vector<double>& v1, const vector<double>& v2) {
   if (v1.size() != v2.size()) {
